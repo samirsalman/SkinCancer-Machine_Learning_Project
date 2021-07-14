@@ -98,6 +98,24 @@ We perform **model selection** step basing on model performances over our valida
 **We use different training dataset** in order to investigate the balance data importance and the data augmentation effort to our task.
 
 
+
+## Challenge results
+
+Balanced Multi-class Accuracy
+
+BACC = $\lambda = \frac{1}{l} \sum_{i=1}^{l}\frac{k_i}{n_i}$
+
+Model| Balanced multi-class accuracy
+--|--
+Competition Winner| 84.50%
+40° model| 65.50%
+**CNN**| **60.81%**
+Logistic Regression | 50.23%
+XGBoosting| 48.85%
+SVM|14.28%
+
+
+
 ## Authors
 
 - Samir Salman
